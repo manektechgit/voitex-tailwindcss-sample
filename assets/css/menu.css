@@ -1,0 +1,202 @@
+.globalNav {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    z-index: 500;
+    perspective: 2000px;
+  }
+  header.globalNav nav.navigation {
+    padding: 25px 0;
+}
+  .globalNav .navRoot {
+    position: relative; display: flex; justify-content: space-between; width: 100%;align-items: center;
+  }
+
+  .globalNav .mobile-menu-wrapper .btn-nav-links {
+    display: none;
+}
+
+  .globalNav .rootLink {
+    padding: 0 15px;
+    height: 100px;
+    line-height: 100px;margin-left: 15px;
+  }
+  header nav.navigation .navSection.secondary .rootLink {
+    margin: 0 0 0 12px;
+    line-height: normal;
+    height: auto;
+    padding: 13px 22px;
+  }
+  .globalNav .navRoot li.navSection {
+      margin: 0;
+  }
+
+  
+  .globalNav .hasDropdown {
+    cursor: default;
+    position: relative;padding-right: 23px;
+  }
+  
+  .globalNav .rootLink.hasDropdown:after {
+    content: "\e900";
+    font-size: 10px;
+    padding-left: 6px;
+    position: absolute;
+    font-family: 'icomoon' !important;
+    transform: rotate(
+90deg);
+    right: -40px;
+    /* transition: 0.3s all;*/
+    height: 0;
+    top: 6px;
+    width: 2px;
+}
+
+.dropdownSection[data-dropdown="Industries"] li.dropdown-item a span:first-child {
+  font-size: 22px;
+}
+.globalNav .rootLink:hover {
+  color: #9CA6B2;
+}
+.globalNav .rootLink.hasDropdown:hover:after {
+  transform: rotate(-90deg);
+  right: 60px;
+  top: 16px;
+}
+  
+
+
+
+  .globalNav .dropdownRoot {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    top: 100px;
+    pointer-events: none;
+    transform: rotateX(-15deg);
+    transform-origin: 50% -50px;
+    opacity: 0;
+    will-change: transform, opacity;
+    transition-property: transform, opacity;
+    transition-duration: 0.25s;
+    display: none;
+  }
+  .globalNav .dropdownRoot {
+    display: block;
+  }
+  .globalNav.dropdownActive .dropdownRoot {
+    opacity: 1;
+    pointer-events: auto;
+    transform: none;
+  }
+  .globalNav .dropdownBackground {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 520px;
+    height: 400px;
+    transform: translateX(0);
+    transform-origin: 0 0;
+  }
+  
+  .globalNav .alternateBackground, .globalNav .dropdownBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    transition-property: transform;
+    transition-duration: 0.25s;
+  }
+  
+  .globalNav .alternateBackground {
+    right: 0;
+    height: 1000px;
+    background: #f6f9fc;
+  }
+  
+  .globalNav .dropdownArrow {
+    top: -6px;
+    margin: 0 0 0 -6px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    border-radius: 4px 0 0 0;
+    background: #fff;
+    box-shadow: -3px -3px 5px rgba(82, 95, 127, 0.04);
+    will-change: transform;
+    transition-property: transform;
+  }
+  
+  .globalNav .dropdownArrow, .globalNav .dropdownContainer {
+    position: absolute;
+    left: 0;
+    transition-duration: 0.25s;
+  }
+  
+  .globalNav .dropdownContainer {
+    overflow: hidden;
+    top: 0;
+    transform: translateX(0);
+    will-change: transform, width, height;
+    transition-property: transform, width, height;
+  }
+  
+  .globalNav .dropdownSection {
+    opacity: 0;
+    pointer-events: none;
+    will-change: transform, opacity;
+    transition-property: transform, opacity;
+    transition-duration: 0.25s;
+    background: red;
+  }
+  
+  .globalNav .dropdownSection.active {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .globalNav .dropdownSection.left {
+    transform: translateX(-150px);
+  }
+  
+  .globalNav .dropdownSection.right {
+    transform: translateX(150px);
+  }
+  
+  .globalNav.dropdownActive .dropdownSection.active {
+    pointer-events: auto;
+  }
+  
+  .globalNav.noDropdownTransition .alternateBackground, .globalNav.noDropdownTransition .dropdownArrow, .globalNav.noDropdownTransition .dropdownBackground, .globalNav.noDropdownTransition .dropdownContainer, .globalNav.noDropdownTransition .dropdownSection {
+    transition: none;
+  }
+  
+  .globalNav .dropdownContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .dropdownContainer .dropdownContent .linkGroup {
+    width: 855px !important;
+    box-shadow: 0px 20px 40px rgb(156 166 178 / 92%);
+    border-radius: 10px;
+    padding: 23px 30px;
+    height: 376px !important;
+  }
+
+  @media (max-width: 1279px) {
+    .globalNav .navRoot li.navSection.primary, .globalNav .navRoot li.navSection.secondary {
+      display: none;
+    }
+    .globalNav .navRoot li.navSection.logo {
+      width: 100%;
+    }
+    .mobile-menu-open header nav .container-1200 {
+      height: auto !important;
+    }
+    header.globalNav nav.navigation {
+      padding: 40px 0 26px;
+    }
+  }

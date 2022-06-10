@@ -1,0 +1,678 @@
+/* Min Width Media Queries */
+@media (min-width: 2000px) {
+  .inner-hero-banner.flexpbx-banner, .inner-hero-banner.smartsms-banner, .inner-hero-banner.telepay-banner {background-position: 100% 0;}
+}
+@media (min-width: 1630px) {
+  .container-1600 {max-width: 1600px;}
+}
+@media (min-width: 1430px) {
+  .container-1400 {max-width: 1400px;}
+}
+@media (min-width: 1230px) {
+  .container-1200 {max-width: 1200px;}
+}
+
+
+/* Max Width Media Queries */
+@media only screen and (max-width: 1800px) {
+  .home-hero-banner::before {width: 670px;top: -263px;}
+
+
+}
+@media only screen and (max-width: 1600px) {
+  .home-hero-banner::before {width: 575px;top: -253px;height: 100vh;}
+  .ivr-branch-banner.inner-hero-banner {background-position: 120px 0;}
+  .hotline-banner.inner-hero-banner {background-position: 60% -60px;}
+  .inner-hero-banner .container-1600 {padding-left: 0;max-width: 1200px;}
+  .ivr-branch-banner .inner-hero-image {margin-left: -10px;margin-right: -70px;margin-top: -80px;}
+  .hotline-banner .inner-hero-image {margin-right: -70px;margin-left: 50px;}
+  .inner-hero-banner.dialer-banner {background-position: 40% -140px;}
+  .dialer-banner .inner-hero-image-2 {margin-left: -100px;}
+  .ivr-dailer-section .img-wrap {margin-left: -70px;}
+  .dialer-banner .inner-hero-image {margin-right: 0;margin-left: 90px;margin-top: -20px;}
+  .solutions-banner.dialer-banner .inner-hero-section-3 .inner-hero-image-3, .solutions-banner.smartsms-banner .inner-hero-section-3 .inner-hero-image-3 {margin-right: -50px;margin-left: 70px;}
+  .smartsms-banner .inner-hero-image {margin-right: -50px;margin-left: 0;margin-top: 10px;}
+  .smartsms-landlines .img-wrap {margin-left: -110px;}
+  .flexpbx-banner .inner-hero-image {margin-right: -80px;margin-left: 0;margin-top: -60px;}
+  .flexpbx-banner .inner-page-content h1 {font-size: 53px;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-2 {margin-top: -50px;}
+  .inner-hero-banner.flexpbx-banner {padding-bottom: 0;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-3 .inner-hero-image-3 {margin-right: -80px;}
+  .inner-hero-banner.flexpbx-banner {background-position: 90% -60px;}
+  .didtrunking-banner .inner-page-content h1, .telepay-banner .inner-page-content h1 {font-size: 55px;line-height: 61px;}
+  .solutions-banner.didtrunking-banner .inner-hero-image {margin-left: 0;}
+  .solutions-banner.telepay-banner .inner-hero-image {margin-right: -70px;margin-left: 100px;}
+  .campaigns-analytics .img-wrap, .telepay-banner .inner-hero-section-2 .inner-hero-image-2 {margin-left: -80px;}
+  .inner-hero-banner.industries-banner {background-position: calc(100% + 150px) -30px;padding-bottom: 65px;}
+  .solution-telepay-wrapper .img-wrap {margin-left: 0;}
+  .solution-other-wrapper .flepbx-wrap .img-wrap {margin-right: -80px;}
+  .section.solution-telepay-wrapper {padding: 110px 30px;}
+  .solution-other-wrapper {padding-right: 30px;padding-left: 30px;}
+  .solution-other-wrapper .didtrunking-wrap .img-wrap {margin-left: -80px;}
+  .inner-hero-banner.contact-banner .inner-page-content {padding-left: 150px;}
+  .contact-form-wrap {margin-left: -40px;}
+  .inner-hero-banner.login-banner .login-hero-img {margin-left: -40px;margin-right: 80px;}
+  .inner-hero-banner.login-banner {background-position: -150px -10px;}
+  .from-call-to-action .img-wrap {margin-left: 0;}
+  .technology-at-human .about-img-wrap {margin-left: 0;margin-right: 0;}
+  /* .inner-hero-banner {overflow-x: hidden;} */
+  
+
+
+
+
+
+}
+@media only screen and (max-width: 1528px) {
+  .solution-box {padding: 30px 22px;}
+  .voitex-solutions .solution-box:hover {padding: 60px 22px;}
+
+}
+@media only screen and (max-width: 1450px) {
+  .home-hero-banner::before {width: 520px;top: -253px;}
+  .home-hero-image {margin-right: 0;}
+  .section {padding: 110px 0;}
+  .make-it-custom .img-wrap img, .make-it-custom .img-wrap svg {max-width: 650px;width: 650px;}
+  .hero-section-2 {left: 0;}
+  h1, .h1 {font-size: 55px;line-height: 61px;}
+  .payment-and-scheduling {padding-bottom: 60px;}
+  .telepay-banner .home-inner-slider .technologies-slider {padding-right: 36px;}
+
+}
+
+@media only screen and (max-width: 1399px) {
+  .solution-box {padding: 30px 16px;}
+  .voitex-solutions .solution-box:hover {padding: 60px 16px;}
+  .hero-section {padding-left: 70px;}
+  .conversation-left-img-wrap {margin-left: 40px;}
+  .conversation-wrap .img-wrap {margin-left: 28px;}
+  header {padding: 0 30px;}
+  .smartsms-banner .inner-hero-image-2 {margin-left: -100px;margin-right: 10px;}
+
+  
+}
+
+@media only screen and (max-width: 1335px) {
+  .solution-box {padding: 30px;}
+  .voitex-solutions .solution-box:hover {padding: 60px 30px;}
+  .voitex-solutions .voitex-solutions-slider {height: 260px;}
+  .ivr-branch-banner .inner-hero-image, .ivr-branch-banner .inner-hero-image-3 {margin-right: -40px;}
+  .hotline-banner .inner-hero-image {margin-right: 0;margin-left: 0;}
+  .smartsms-banner .inner-hero-image {margin-right: -20px;}
+  .smartsms-landlines .img-wrap {margin-left: -60px;}
+  .flexpbx-banner .inner-hero-image {margin-right: -30px;margin-left: -30px;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-3 .inner-hero-image-3 {margin-right: -30px;}
+  .solutions-banner.didtrunking-banner .inner-hero-image {margin-right: -45px;}
+  .solutions-banner.didtrunking-banner .inner-hero-section-3 .inner-hero-image-3 {margin-left: 60px;margin-right: 0;}
+  .solutions-banner.telepay-banner .inner-hero-image {margin-right: -20px;margin-top: 30px;}
+  .campaigns-analytics .img-wrap, .telepay-banner .inner-hero-section-2 .inner-hero-image-2 {margin-left: -50px;}
+  .solution-other-wrapper .flepbx-wrap .img-wrap {margin-right: -50px;}
+  .solution-other-wrapper .didtrunking-wrap .img-wrap {margin-left: -30px;}
+  .inner-hero-banner.login-banner .login-hero-img {margin-left: 0;}
+
+
+}
+@media only screen and (max-width: 1279px) {
+  header nav.navigation {padding: 40px 0 26px;}
+  .mobile-menu.open {display: block;}
+  .navbar-toggler-icon {width: 32px;height: 22px;background-image: none !important;position: relative;border-bottom: 2px solid #fff;transition: all 300ms linear;margin-top: -8px;}
+  .navbar-toggler-icon:after, 
+  .navbar-toggler-icon:before{width: 31px;position: absolute;height: 2px;background-color: #fff;top: 0;left: 0;content: '';z-index: 2;transition: all 300ms linear;}
+  .navbar-toggler-icon:after{top: 10px;}
+  .mobile-menu-open .navbar-toggler-icon:after {transform: translateY(-8px) rotate(47deg);}
+  .mobile-menu-open .navbar-toggler-icon:before {transform: translateY(2px) rotate(-45deg);}
+  .mobile-menu-open .navbar-toggler-icon {border-color: transparent;}
+  .navigation .main-menu, .navigation .btn-nav-links, .mobile-menu-wrapper {display: none;}
+  .mobile-menu-open .navigation .main-menu,  .mobile-menu-open .navigation .btn-nav-links {display: flex;flex-wrap: wrap;}
+  .mobile-menu-open .mobile-menu-wrapper {display: block;padding-top: 30px;height: calc(100% - 30px);}
+  .navbar-logo {width: 95%;}
+  #mobile-toggle {position: relative;top: -5px;}
+  .mobile-menu-open header {background: #fff;height: 100%;overflow: hidden;overflow-y: scroll;}
+  body.mobile-menu-open {overflow: hidden;}
+  body.mobile-menu-open span.navbar-toggler-icon {border-bottom-color: #000;}
+  body.mobile-menu-open span.navbar-toggler-icon:before, body.mobile-menu-open span.navbar-toggler-icon:after {background-color: #000;}
+
+  .mobile-menu-open header nav, .mobile-menu-open header nav .container-1200 {height: 100%;}
+  .navigation .menu .main-menu .menu-item {display: none;}
+  .navigation .menu .menu-item.hoverable:hover .mega-menu {opacity: 0;visibility: hidden;}
+  .navigation .menu .menu-item.hoverable.open-submenu .mega-menu{opacity: 1;visibility: visible;}
+  .mobile-menu-wrapper .main-menu-bottom-links {background: #FBFBFC;position: relative;padding-top: 20px;}
+  ul.btn-nav-links {padding: 20px 0 60px;background: #FBFBFC;position: relative;}
+
+  .mobile-tab-menu ul {display: flex; }
+  .mobile-tab-menu ul li { flex-grow: 1; max-width: 100%; text-align:center; }
+  .mobile-menu-wrapper .tab-main-box .tab-box { display:none; }
+
+  .mobile-tab-wrap { max-width:100%; width:100%; margin:0 auto; }
+  .mobile-tab-wrap .tab-main-box { padding: 25px 0 30px;margin-top:-2px }
+  .navigation .menu .menu-item.hoverable .mega-menu {box-shadow: none;}
+  .mobile-tab-wrap .tab-main-box .mega-menu .container {max-width: 100%;}
+
+  .navigation .menu .mobile-tab-menu .menu-item a {font-size: 22px;color: #B0B8C1;position: relative;}
+  .navigation .menu .mobile-tab-menu .menu-item a:after {display: none;}
+  .navigation .menu .mobile-tab-menu .menu-item a::before {content: "";background: #F4057B;height: 2px;width: 30px;position: absolute; bottom: 20px;left: 0;right: 0;margin: 0 auto;opacity: 0; visibility: hidden;}
+  .navigation .menu .mobile-tab-menu .menu-item a.active {color: #2F3857;}
+  .navigation .menu .mobile-tab-menu .menu-item a.active::before {opacity: 1; visibility: visible;}
+  .mobile-menu-wrapper .main-menu-bottom-links:after, .mobile-menu-wrapper .main-menu-bottom-links:before, ul.btn-nav-links:after, ul.btn-nav-links:before {content: "";background: #FBFBFC;width: 500px;height: 100%;position: absolute;top: 0;z-index: -1;}
+  .mobile-menu-wrapper .main-menu-bottom-links:after, .mobile-menu-wrapper ul.btn-nav-links:after {right: -200px;}
+  .mobile-menu-wrapper .main-menu-bottom-links:before, .mobile-menu-wrapper ul.btn-nav-links:before {left: -200px;}
+  /* .mobile-menu-open .mobile-menu-wrapper {overflow-y: scroll;overflow-x: hidden;} */
+  .mobile-menu-wrapper .main-menu-bottom-links {display: flex;}
+  .mobile-menu-wrapper .main-menu-bottom-links li {margin: 0 30px !important;}
+  .mobile-menu-wrapper .main-menu-bottom-links li:first-child {margin-left: 0 !important;}
+  .mobile-menu-open .navigation .btn-nav-links a.btn {min-width: 160px;text-align: center;padding: 13px 22px;}
+  .mobile-menu-open .navigation .btn-nav-links li {margin-left: 30px;}
+  .mobile-menu-open .navigation .btn-nav-links li:first-child {order: 2;}
+  .mobile-menu-open .navigation .btn-nav-links li:last-child {margin-left: 0;}
+
+  .section {padding: 100px 0;}
+  .small-section {padding: 85px 0;}
+  .home-hero-banner {padding: 110px 0;}
+  .home-hero-banner::before {width: 440px;top: -253px;min-height: 1150px;height: 1150px;background-size: cover;}
+  .hero-section {padding-left: 30px;}
+  h1, .h1 {font-size: 50px;line-height: 56px;margin-bottom: 25px;}
+  .hero-btn-wrap {margin-top: 50px;}
+  .hero-section-2 {margin-top: -150px;}
+  h2, .h2 {font-size: 34px;line-height: 42px;}
+  .hero-section-2 h2 {margin-bottom: 25px;}
+  .voitex-solutions .voitex-solutions-slider {margin-top: 30px;}
+  .pl-85 {padding-left: 20px;}
+  .make-it-custom .img-wrap img, .make-it-custom .img-wrap svg {max-width: 550px;width: 550px;}
+  .from-call-to-action {padding-bottom: 75px !important;}
+  .start-conversation {padding: 100px 0 90px;}
+  .conversation-left-img-wrap {max-width: 460px;}
+  footer {padding: 80px 0 30px !important;}
+  footer .footer-links, .sunscribe-wrap {margin-left: 0;margin-top: 50px;}
+  footer .bottom-footer {margin-top: 65px;}
+
+  .inner-hero-banner {padding: 150px 0 60px;}
+  header.inner-header .navbar-toggler-icon:after, header.inner-header .navbar-toggler-icon:before {background: #000;}
+  /* .inner-hero-banner .container-1600 {padding-left: 30px;} */
+  .solutions-banner .inner-hero-image, .solutions-banner .inner-hero-image-3 {margin-right: -10px;}
+  .inner-page-content .inner-top-icon {margin-bottom: 40px;}
+  .solutions-banner .inner-hero-section-2, .solutions-banner .inner-hero-section-3 {margin-top: 100px;}
+  .inner-hero-banner {background-position: 110px -200px;}
+  .center-image-section .four-column-listing li:first-child {margin-bottom: 80px;}
+  .solutions-banner .inner-hero-section-3 {margin-top: 80px;}
+
+  .solutions-banner.ivr-branch-banner .inner-hero-section-2 {margin-top: 80px;}
+  .ivr-branch-banner.inner-hero-banner {background-position: 120px -120px;}
+  .hotline-banner.inner-hero-banner {background-position: 50% -140px;}
+  .hotline-banner .inner-hero-section-3 .four-column-listing li, .list-left-padding .four-column-listing li {padding-right: 0;}
+  .dialer-banner .inner-hero-image {margin-right: 0;margin-left: 50px;}
+  .solutions-banner.dialer-banner .inner-hero-section-3 {margin-top: 60px;}
+  .ivr-dailer-section {padding: 60px 0;}
+  .dialer-banner .inner-hero-image-2 {margin-left: -70px;}
+  .ivr-dailer-section .img-wrap {margin-left: -30px;}
+  .dialer-banner .inner-page-content h1, .flexpbx-banner .inner-page-content h1 {max-width: 563px;}
+  .solutions-banner.dialer-banner .inner-hero-section-3 .inner-hero-image-3, .solutions-banner.smartsms-banner .inner-hero-section-3 .inner-hero-image-3 {margin-right: -20px;margin-left: 30px;}
+  .smartsms-banner .inner-hero-image-2 {margin-left: -70px;margin-right: 0;}
+  .flexpbx-banner .inner-page-content h1 {font-size: 48px;}
+  .flexpbx-banner .inner-hero-image {margin-top: -20px;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-2 {margin-top: 50px;}
+
+  .didtrunking-banner .inner-page-content h1, .telepay-banner .inner-page-content h1 {font-size: 48px;line-height: 54px;}
+  .solutions-banner.didtrunking-banner .inner-hero-image {margin: 0;}
+  .solutions-banner.telepay-banner .inner-hero-image {margin-right: 0;margin-left: 30px;}
+  .campaigns-analytics .img-wrap {margin-left: 0;margin-right: 30px;}
+
+  .inner-hero-banner.industries-banner {background: calc(100% + 400px) calc(100% - -60px);padding: 170px 0 65px;}
+  .statistic-wrap p {font-size: 16px;line-height: 22px;}
+  .statistic-wrap h2 {margin-right: 20px;}
+  .section.solution-telepay-wrapper {padding: 100px 0;}
+  .solution-other-wrapper .flepbx-wrap .img-wrap {margin-right: -10px;}
+  .talk-of-town-section .talk-head h2 {font-size: 36px;line-height: 44px;}
+  .dialer-solution-wrap .img-wrap {margin-bottom: 56px;}
+
+  .inner-hero-banner.contact-banner:before {background-image: url(../images/contact-mobile-bg.png);width: 100%;height: 600px;}
+  .inner-hero-banner.contact-banner {padding: 170px 0 80px;}
+  .inner-hero-banner.contact-banner .inner-page-content {padding-left: 0;margin-bottom: 170px;}
+  .contact-form-wrap {margin-left: 0;}
+  .inner-hero-banner.contact-banner .inner-section {padding-left: 0;}
+  .inner-hero-banner.login-banner .login-hero-img {display: none;}
+  .login-form-wrap {max-width: 100%;}
+  .inner-hero-banner.login-banner {background-image: url(../images/login-mobile-bg.svg) !important;background-size: calc(100% + 10px);background-position: calc(100% + 10px) -330px;}
+  .login-form-wrap .login-icon {margin-top: 0;}
+  .inner-hero-banner.about-banner {padding-top: 150px;}
+  .technology-at-human .about-img-wrap {width: 100%;}
+  .about-technology-content {margin-top: 50px;}
+  .about-hero-content h6.text-purple, .technology-at-human h6.text-purple {margin-bottom: 30px;}
+  .about-technology-content .top-text p, .about-technology-content .bottom-text .bottom-left-text p, .about-technology-content .bottom-text .bottom-right-text p {max-width: 100%;margin-bottom: 25px;}
+  .about-technology-content .bottom-text .bottom-right-text p {margin-bottom: 0;}
+  .technology-at-human {margin-top: 40px;}
+  .get-deeper-look-wrap {display: block;text-align: center;}
+  .get-deeper-look-wrap .get-deeper-content h2 {margin-bottom: 30px;}
+  .get-deeper-look-wrap .deeper-btn-wrap {justify-content: center;}
+  .about-descreprion-wrap h6 {margin-bottom: 70px;}
+  .about-descreprion-wrap ul.about-list {margin-top: 90px;}
+  .about-many-product .procuct-img {width: 95%;overflow: hidden;}
+  .about-many-product .procuct-img img {object-fit: cover;}
+  .about-many-productSwiper .about-swiper-wrap {padding: 18px 25px;}
+  .about-many-productSwiper .swiper-slide-thumb-active .about-swiper-wrap p {margin-bottom: 0;}
+  .abt-center-box, .abt-left-line, .abt-graph-lines, .abt-right-topbox, .abt-right-connector, .abt-voice-box, .abt-bottom-box, .abt-right-line {display: none;}
+  .about-img-wrap svg {transform: scale(1.1);margin-left: -15px;}
+  .four-column-listing li p br,.statistic-wrap p br {display: none;}
+  .ivr-branch-banner .inner-hero-image-3 {margin-top: 0;}
+  .walloffs-registration .img-wrap svg {margin-left: 0;}
+  .default-overrides .img-wrap svg {transform: scale(1);margin-left: 0;}
+  .solutions-banner.smartsms-banner .inner-hero-section-3 {margin-top: 120px;}
+  .globalNav .dropdownRoot {display: none;}
+
+
+}
+
+@media only screen and (max-width: 1040px) {
+  .conversation-left-img-wrap {max-width: 437px;top: 21px;margin-left: 0;}
+
+
+}
+
+@media only screen and (max-width: 1023px) {
+  header {background: #fff;}
+  .navbar-toggler-icon {border-bottom-color: #000;}
+  .navbar-toggler-icon:after, .navbar-toggler-icon:before{background-color: #000;}
+  .home-hero-banner {background-image: url(../images/bg-home-mobile-gradiant.png) !important;background-size: cover;background-repeat: no-repeat;background-position: center 100%;}
+  .navbar-logo img {width: 128px;}
+  .navbar-toggler-icon:after, .navbar-toggler-icon:before {width: 27px;}
+
+  .hero-section-2 .info-wrapper {margin-left: 0;}
+  .trust-companies .swiper-button-next, .trust-companies .swiper-button-prev {display: none;}
+  .hero-section {padding-left: 35px;}
+  .home-hero-banner::before {display: none;}
+  .home-hero-banner .home-hero-image, .home-hero-banner .home-hero-image svg {position: relative;}
+  .home-hero-banner .home-hero-image::before {content: "";background: url(../images/hero-mobile-bg-shape.png);width: 100%;height: 100%;position: absolute;z-index: 0;background-repeat: no-repeat;right: 0;top: -25px; left: 0; margin: 0 auto;}
+  .home-hero-banner .home-hero-image svg {height: 420px;transform: scale(1.1);}
+  h1, .h1, .flexpbx-banner .inner-page-content h1, .didtrunking-banner .inner-page-content h1, .telepay-banner .inner-page-content h1 {font-size: 42px;line-height: 48px;max-width: 500px;}
+  .section {padding: 80px 0;}
+  .hero-section-2 {margin-top: 60px;}
+  .hero-section .home-hero-content p {max-width: 100%;}
+  .home-hero-image {margin-top: 70px;}
+  .hero-section-2 .home-hero-image-2 {display: none;}
+  .trust-companies-slider {padding-bottom: 12px;}
+  .trusted-companies h3 {margin-bottom: 50px;}
+  .trust-companies .swiper-pagination {display: block;}
+  .solution-box span {font-size: 35px;}
+  .solution-box h5 {color: #2F3857;font-size: 20px;margin: 24px 0 14px;}
+  .solution-box p {font-size: 16px;line-height: 21px;max-width: 100%;}
+  .voitex-solutions .voitex-solutions-slider {height: 290px;}
+  .make-it-custom .img-wrap img, .make-it-custom .img-wrap svg {margin-left: 0;width: 100%;max-width: 100%;height: auto;}
+  .make-it-custom .lg\:w-7\/12, .from-call-to-action .lg\:w-5\/12 {order: 2;}
+  .make-it-custom .img-wrap {top: 0;}
+  ul.make-it-custom-list li {margin-bottom: 45px;}
+  ul.make-it-custom-list {margin-top: 60px;margin-bottom: 60px;}
+  .home-town-technologies .swiper-wrapper {flex-wrap: nowrap;}
+  .home-grown-technologies .pl-85 {padding-left: 0;}
+  .home-town-technologies {margin-top: 0;padding-bottom: 25px;}
+  .town-technologies {margin-top: 40px;}
+  .home-town-technologies .swiper-wrapper .swiper-slide {margin-bottom: 0;}
+  .start-conversation {padding: 90px 35px;}
+  .conversation-text-wrap:before {display: none;}
+  .conversation-wrap {background-position: 35% 100%;}
+  .conversation-text-wrap {padding: 50px 30px;background: #2F3857;margin-top: -32px;border-radius: 0 0 10px 10px;}
+  .conversation-left-img-wrap {display: none;}
+  .conversation-wrap .img-wrap {visibility: visible;margin: 0 auto -5px;position: relative;top: -30px;}
+  .conversation-wrap {overflow: inherit;}
+  footer .footer-links {max-width: 80%;justify-content: space-between;width: 100%;}
+
+  .inner-hero-banner.solutions-banner {background-image: none !important;}
+  .ivr-branch-banner .inner-hero-image {background-image: url(../images/solution-ivr-bg.png);background-size: cover;background-position: 65% 10px}
+  .solutions-banner .inner-hero-image, .solutions-banner .inner-hero-image-3 {margin-right: 0;}
+  .solutions-banner .inner-hero-image {margin-top: 0;}
+  .inner-hero-image-2 img {width: 100%;}
+  .center-image-wrapper .col:nth-child(2) {order: 1;}
+  .center-image-wrapper .col:nth-child(1) {order: 2;}
+  .center-image-wrapper .col:nth-child(3) {order: 3;}
+  .solutions-banner .inner-hero-section-2, .solutions-banner .inner-hero-image-3, .img-margin-top {margin-top: 30px;}
+  .solutions-banner .inner-hero-section-2 .inner-hero-image-2 {margin-top: 50px;}
+  .solutions-banner.ivr-branch-banner .inner-hero-section-2 .inner-hero-image-2animate {margin-bottom: 40px;}
+  .center-image-wrapper h2 {margin-bottom: 10px;}
+  .center-image-section .info-wrapper {margin-top: 0;}
+
+  .hotline-banner .inner-hero-image, .dialer-banner .inner-hero-image, .smartsms-banner .inner-hero-image, .flexpbx-banner .inner-hero-image, .didtrunking-banner .inner-hero-image,  .telepay-banner .inner-hero-image  {background-size: cover;max-width: 100%;padding:50px 30px;}
+  .hotline-banner .inner-hero-image {background-image: url(../images/solution-hotline-bg.png);background-position: 95% 10px;}
+  .dialer-banner .inner-hero-image {background-image: url(../images/solution-dailer-bg.png);background-position: 95% 10px;}
+  .smartsms-banner .inner-hero-image {background-image: url(../images/solution-smartsms-bg.png);background-position: 95% 10px;}
+  .telepay-banner .inner-hero-image {background-image: url(../images/solution-telepay-bg.png);background-position: 95% 10px;}
+  .flexpbx-banner .inner-hero-image {background-image: url(../images/solution-flexpbx-bg.png);background-position: 95% 10px;}
+  .didtrunking-banner .inner-hero-image {background-image: url(../images/solution-didtrunking-bg.png);background-position: 95% 10px;}
+
+  .dialer-banner .inner-hero-image, .dialer-banner .inner-hero-image-2, .ivr-dailer-section .img-wrap {margin-left: 0;}
+  .solutions-banner.dialer-banner .inner-hero-section-3 .inner-hero-image-3, .solutions-banner.smartsms-banner .inner-hero-section-3 .inner-hero-image-3 {margin-left: 0;margin-right: 0;}
+
+  .smartsms-banner .inner-hero-image-2,  .flexpbx-banner .inner-hero-section-2 .info-wrapper, .flexpbx-banner .inner-hero-image {margin-left: 0;}
+  .smartsms-landlines .img-wrap {margin-left: 0;margin-right: 0;}
+  .solutions-banner.smartsms-banner .inner-hero-section-2 .inner-hero-image-2 {margin-top: 0;}
+  .smartsms-landlines {padding-bottom: 50px;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-3 .inner-hero-image-3, .flexpbx-banner .inner-hero-image-2 {margin: 0;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-2 .inner-hero-image-2 {margin-top: 0;margin-bottom: -80px;}
+  .solutions-banner.didtrunking-banner .inner-hero-section-3 .inner-hero-image-3 {margin: 0 0 -50px;}
+  .solutions-banner.didtrunking-banner .inner-hero-section-3 {margin-top: 80px;}
+  .didtrunking-banner .inner-hero-section-2 .inner-hero-image-2 {margin: 0 0 -40px;}
+  .solutions-banner.didtrunking-banner .inner-hero-section-2 {margin-top: 60px;}
+  .solutions-banner.telepay-banner .inner-hero-image {margin: 0;}
+  .telepay-banner .home-inner-slider .technologies-slider {padding: 0 30px 32px;margin: 40px 0 100px;}
+  .telepay-banner .home-inner-slider .technologies-slider .img-wrap {justify-content: center;}
+
+  .solutions-banner.telepay-banner .inner-hero-section-2 .inner-hero-image-2 {margin: 0 0 -40px;}
+  .solutions-banner.telepay-banner .inner-hero-section-2 .info-wrapper,
+  .payment-and-scheduling .col:last-child .four-column-listing {margin: 0;}
+  .payment-and-scheduling .center-image-section {align-items: flex-start;}
+  .payment-and-scheduling .col:first-child ul.four-column-listing {margin-top: 0;}
+  .payment-and-scheduling .col:first-child li, .payment-and-scheduling .col:last-child .four-column-listing li {margin-bottom: 55px;}
+
+  .inner-hero-banner.industries-banner {padding: 150px 0 20px;}
+  .inner-hero-banner.industries-banner .inner-page-content .inner-top-icon {margin: 0 0 40px;}
+  .inner-hero-banner.industries-banner .inner-page-content {padding-right: 0;}
+  .inner-hero-banner.industries-banner .inner-page-content h1 {margin-bottom: 30px;}
+  .inner-hero-banner.industries-banner {background-repeat: no-repeat;background-position: 0 center;}
+  .inner-hero-banner.industries-banner .inner-section .inner-hero-image {margin: 0;}
+  .inner-hero-banner.industries-banner .inner-hero-image {padding: 50px 30px; }
+  .inner-hero-banner.industries-banner .inner-hero-statistic {margin-top: 50px;}
+  .statistic-wrap {display: block;max-width: 100%;position: relative;padding-left: 40px;margin-bottom: 35px;}
+  .statistic-wrap:before {content: "";background: #F13939;width: 2px;height: 100%;position: absolute;border: 15px;left: 0;}
+  .statistic-wrap p {max-width: 100%;}
+  .statistic-wrap:last-child {margin-bottom: 0;}
+  .solution-section-wrapper h2 {font-size: 36px;line-height: 48px;margin-bottom: 0;}  
+  .talk-descp-wrap {padding-left: 50px;margin-top: 70px;}
+  .talk-descp-wrap span.quotation {left: 0;}
+  .talk-descp-wrap h4 {font-size: 24px;line-height: 32px;}
+  .solution-info-wrapper {margin-top: 40px;}
+  .ivr-branch-wrapper .img-wrap {margin-bottom: -30px;}
+  .solution-other-wrapper .flepbx-wrap .img-wrap {margin-bottom: -100px;}
+  .dialer-solution-wrap .img-wrap {margin-right: 100px;}
+  .solution-info-wrapper h3 {max-width: 100%;}
+  .talk-of-town-section {padding-bottom: 50px !important;}
+  .inner-hero-banner.login-banner {background-position: calc(100% + 10px) -110px;}
+
+  .mobile-products-content .product-wrap .procuct-img {border-radius: 10px;overflow: hidden;margin-bottom: 30px;}
+  .mobile-products-content .product-wrap .procuct-img img {width: 100%;}
+  .mobile-products-content .product-wrap h5 {font-size: 24px;color: #2F3857;line-height: 44px;margin-bottom: 5px;}
+  .mobile-products-content .product-wrap p {max-width: 100%;}
+  .product-wrap {margin-bottom: 50px;}
+  .product-wrap:last-child {margin-bottom: 0;}
+  .mobile-products-content .product-wrap:last-child p {margin-bottom: 0;}
+  .about-hero-content h1 {max-width: 100%;}
+  .get-deeper-look-wrap .deeper-btn-wrap {display: block;}
+  .get-deeper-look-wrap .deeper-btn-wrap p {margin: 0 0 20px 0;}
+  .get-deeper-look-wrap .get-deeper-content h2 {margin-bottom: 5px;}
+  .get-deeper-look-wrap {background-position: center;}
+  .about-descreprion-wrap h6 {margin-bottom: 50px;}
+  .about-descreprion-wrap p br {display: none;}
+  .about-descreprion-wrap ul.about-list li {width: 50%;}
+  .about-descreprion-wrap ul.about-list {flex-wrap: wrap;margin-top: 75px;}
+  .about-descreprion-wrap ul.about-list li:first-child {margin-bottom: 40px;}
+  .from-call-to-action .about-action-wrap p {max-width: 100%;margin-bottom: 0;}
+  .about-action-wrap {margin-top: 30px;}
+  .about-action-wrap h6, .about-action-wrap h2 {margin-bottom: 30px;}
+  .about-trust-companies-slider {padding-bottom: 40px;}
+  .trusted-companies.about-trusted-companies {padding: 80px 0 30px;}
+  .solutions-banner.ivr-branch-banner .inner-hero-section-2 svg {margin-left: 0;}
+  .branching-and-transfer svg {margin-left: 0;margin-top: 0;}
+  .solutions-banner.hotline-banner .inner-hero-section-2 .inner-hero-image-2 svg {transform: scale(1);width: 100%;}
+  .streaming-recording .center-image-section .img-wrap svg {transform: scale(1);margin: 0;}
+  .solutions-banner.dialer-banner .inner-hero-section-2 .inner-hero-image-2 svg {transform: scale(1.20);margin-left: -60px;}
+  .inner-hero-banner { overflow-x: inherit;}
+  .solutions-banner.smartsms-banner .inner-hero-section-3 {margin-top: 80px;}
+
+
+
+}
+
+@media only screen and (max-width: 767px) {
+  
+
+}
+
+@media only screen and (max-width: 640px) {
+  #mobile-toggle {right: 10px;}
+  .mega-menu li.dropdown-item a span:last-child span {display: none;}
+  .mega-menu li.dropdown-item a span:first-child {width: 38px;height: 38px;border-radius: 50%;display: flex;align-items: center;justify-content: center;font-size: 18px;margin-right: 10px;min-width: 38px;}
+  header nav.navigation li.dropdown-item a {display: flex;align-items: center;}
+  .mega-menu li.dropdown-item a span b {font-family: 'Larsseit';font-weight: 500;}
+  .mega-menu li.dropdown-item a span.icon-chat i:before {left: 14px;top: 15px;height: 1px;}
+  .mega-menu li.dropdown-item a span.icon-chat {position: relative;}
+  .mega-menu li.dropdown-item a span.icon-chat i:after {top: 18px;left: 14px;height: 1px;}
+
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:first-child li.dropdown-item:nth-child(1) a span:first-child {background: #FFEBF5;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:first-child li.dropdown-item:nth-child(2) a span:first-child {background: #F5EFFE;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:first-child li.dropdown-item:nth-child(3) a span:first-child {background: #FDF0E8;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:first-child li.dropdown-item:nth-child(4) a span:first-child {background: #F0FCF3;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:last-child li.dropdown-item:nth-child(1) a span:first-child {background: #E7F3FD;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:last-child li.dropdown-item:nth-child(2) a span:first-child {background: #E9F5E9;}
+  .mobile-tab-wrap .tab-main-box .tab-box:first-child .mega-menu ul:last-child li.dropdown-item:nth-child(3) a span:first-child {background: #FFF7E7;}
+
+  .mobile-tab-wrap .tab-main-box .tab-box .mega-menu li a span:first-child {font-size: 14px;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:first-child li.dropdown-item:nth-child(1) a span:first-child {background: #FEEBEB;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:first-child li.dropdown-item:nth-child(2) a span:first-child {background: #EAF3FF;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:first-child li.dropdown-item:nth-child(3) a span:first-child {background: #EAF9FF;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:first-child li.dropdown-item:nth-child(4) a span:first-child {background: #EDFBF0;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:last-child li.dropdown-item:nth-child(1) a span:first-child {background: #FFFAEA;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:last-child li.dropdown-item:nth-child(2) a span:first-child {background: #FFF3EA;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:last-child li.dropdown-item:nth-child(3) a span:first-child {background: #FEEFFB;}
+  .mobile-tab-wrap .tab-main-box .tab-box:last-child .mega-menu ul:last-child li.dropdown-item:nth-child(4) a span:first-child {background: #F3EAFF;}
+
+  .mobile-tab-wrap .tab-main-box .tab-box .mega-menu li a span:first-child {font-size: 14px;}
+  .mobile-menu-wrapper .main-menu-bottom-links li {width: 50%;margin: 0 !important;}
+  .mobile-menu-wrapper .main-menu-bottom-links {flex-wrap: wrap;}
+  .mobile-menu-wrapper .main-menu-bottom-links li a {padding: 12px 0 !important;}
+  .mobile-menu-open .navigation .btn-nav-links {padding-top: 30px;}
+  .mobile-menu-open .navigation .btn-nav-links li {width: calc(50% - 20px);}
+  .mobile-menu-open .navigation .btn-nav-links li a.btn {width: 100%;min-width: auto;}
+  .mobile-menu-open .navigation .btn-nav-links li:first-child {margin-left: 20px;}
+
+  .home-hero-banner .home-hero-image::before {width: 750px;height: 500px;background-position: 0 0;top: 30px;background-size: cover;left: 40px;}
+  .home-hero-image {padding-bottom: 110px;margin-top: 40px;}
+  .hero-section-2 {margin-top: -80px;}
+  .home-hero-banner .home-hero-image svg {height: 420px;transform: scale(1);}
+  .solutions-banner.ivr-branch-banner .inner-hero-section-2 {margin-top: 40px;}
+  .conversation-btn-wrap {display: block;margin-top: 25px;}
+  .conversation-btn-wrap a {width: 100%;}
+  .conversation-btn-wrap a.btn {margin-top: 25px;}
+  .footer-info-wrap p, footer .footer-links li a, .sunscribe-wrap p {font-size: 16px;}
+  footer .footer-links ul {width: 50%;}
+  footer .footer-links {flex-wrap: wrap;width: 100%;max-width: 100%;}
+  footer .footer-links ul:first-child {margin-top: 30px;order: 3;}
+
+  .hero-section .home-hero-content {position: relative;z-index: 2;}
+  p {font-size: 18px;line-height: 28px;}
+  h1, .h1, .flexpbx-banner .inner-page-content h1 {font-size: 38px;line-height: 44px;}
+  .hero-btn-wrap a.btn {width: 100%;padding: 13px 20px;}
+  .hero-btn-wrap {display: flex;align-items: center;}
+  .hero-btn-wrap a.btn.btn-link {padding-right: 0;padding-left: 15px;}
+  h2, .h2, .dialer-banner .inner-hero-section-2 h2 {font-size: 30px;line-height: 38px;}
+  .hero-section-2 .info-wrapper p {max-width: 295px;}
+  .hero-section-2 .info-wrapper {padding-right: 0;}
+  .btn {padding: 13px 18px;}
+  .section {padding: 65px 0;}
+  .voitex-solutions-slider {padding: 0 35px;}
+  .voitex-solutions p.head-text {max-width: 370px;margin-left: 0;}
+  .voitex-solutions .voitex-solutions-slider {margin-top: 15px;}
+  .make-it-custom .img-wrap {margin-bottom: 30px;}
+  ul.make-it-custom-list li span {font-size: 32px;min-width: 70px;}
+  ul.make-it-custom-list li p {font-size: 16px;line-height: 26px;max-width: 270px;}
+  ul.make-it-custom-list li {margin-bottom: 32px;}
+  .home-grown-technologies h3 {max-width: 230px;}
+  .home-grown-technologies p {max-width: 300px;}
+  .home-town-technologies .img-wrap {padding: 0 20px;}
+  .from-call-to-action h6 {font-size: 14px;margin-top: 20px;margin-bottom: 25px;}
+  .from-call-to-action h2 {margin-bottom: 20px;}
+  .from-call-to-action h5 {font-size: 18px;}
+  .from-call-to-action p {max-width: 310px;}
+  .from-call-to-action p {max-width: 310px;}
+  .conversation-text-wrap h3 {margin-bottom: 20px;}
+  .conversation-text-wrap p {max-width: 220px;}
+  .start-conversation {padding: 60px 35px 35px;}
+
+  .four-column-listing li, .solutions-banner.smartsms-banner .inner-hero-section-2 .four-column-listing li {width: 100%;margin-right: 0;display: flex;align-items: flex-start;margin-bottom: 40px;}
+  .four-column-listing li:nth-child(2n) {padding-left: 0;}
+  .four-column-listing li p {margin-top: 0;}
+  .four-column-listing li span {min-width: 45px;position: relative;top: 7px;}
+  .four-column-listing li img {width: 45px;max-width: 45px;padding-right: 20px;position: relative;top: 3px;}
+  .four-column-listing li:last-child {margin-bottom: 15px;}
+  .solutions-banner .inner-hero-section-3 {margin-top: 70px;}
+  .center-image-wrapper .col:last-child .four-column-listing li {margin-left: 0;}
+  .center-image-section .four-column-listing li:first-child {margin-bottom: 35px;}
+  .four-column-listing {margin-top: 20px;}
+  .bottom-img-left-section .img-wrap {margin-left: -40px;}
+  .bottom-img-left-section {padding-bottom: 55px;}
+  .destination-keyword-section {padding-top: 50px;}
+  .inner-page-content h1, .flexpbx-banner .inner-page-content h1, .didtrunking-banner .inner-page-content h1, .telepay-banner .inner-page-content h1 {font-size: 35px;max-width: 312px;margin-bottom: 22px;}
+  .inner-page-content .inner-top-icon span:last-child {font-size: 14px;}
+  .inner-page-content .inner-top-icon span:first-child {font-size: 24px;}
+  .inner-page-content .inner-top-icon img {width: 25px;}
+  .inner-page-content .inner-top-icon {margin-bottom: 30px;}
+  .ivr-branch-banner .inner-page-content p {max-width: 320px;}
+  .inner-hero-banner {padding-top: 120px;}
+
+  .inner-page-content h1,  .flexpbx-banner .inner-page-content h1, .didtrunking-banner .inner-page-content h1, .telepay-banner .inner-page-content h1 {max-width: 100%;}
+  .inner-page-content p {max-width: 330px; font-size: 18px;line-height: 28px;}
+  .solutions-banner.dialer-banner .inner-hero-section-2 .four-column-listing li:nth-child(2n) {padding-left: 0;}
+  .solutions-banner.dialer-banner .inner-hero-section-2 .four-column-listing li p {max-width: 260px;}
+  .img-mobile-m-btm.aos-init {margin-bottom: 40px;}
+  .solutions-banner.flexpbx-banner .inner-hero-section-2 .inner-hero-image-2 {margin-bottom: -40px;}
+  .didtrunking-banner .inner-hero-section-2 .inner-hero-image-2, .solutions-banner.didtrunking-banner .inner-hero-section-3 .inner-hero-image-3{margin-bottom: -10px;}
+  .solutions-banner.didtrunking-banner {padding-bottom: 60px;}
+  .payment-and-scheduling .col:first-child li, .payment-and-scheduling .col:last-child .four-column-listing li {margin-bottom: 35px;}
+  .four-column-listing li img.repeat-img-icon {max-width: 45px;width: 45px;}
+  .four-column-listing li img.replay-img-icon {max-width: 39px;margin-right: 6px;}
+  .four-column-listing li span.icon-reply1 {font-size: 16px;}
+
+  .inner-hero-banner.industries-banner .inner-section .inner-hero-image {height: 400px;}
+  .inner-hero-banner.industries-banner {background-position: center 63%;background-size: 180%;}
+
+  .solution-section-wrapper h2 {font-size: 30px; line-height: 38px;}
+  .inner-hero-banner.industries-banner .inner-hero-statistic {margin-top: 20px;}
+  .inner-hero-banner.industries-banner {padding: 130px 0 0;}
+  .solution-info-wrapper h3 {max-width: 380px;}
+  .solution-info-wrapper p {font-size: 18px;line-height: 28px;}
+  .solution-info-wrapper p {margin-bottom: 30px;}
+  .dialer-solution-wrap .img-wrap {margin-top: -30px;margin-right: 0;margin-left: -60px;}
+  .solution-section-wrapper .smartsms-solution-wrap .img-wrap {margin-right: -20px;}
+  .section.solution-telepay-wrapper, .small-section.solution-other-wrapper {padding: 75px 0;}
+  .inner-hero-banner.industries-banner {background-position: center calc(100% - 140px);background-size: calc(100% + 330px);}
+  .solution-info-wrapper p br, .solution-info-wrapper h3 br, .industries-tagline br {display: none;}
+
+  .inner-hero-banner.contact-banner:before {height: 450px;background-position: 50% 90px;}
+  .inner-hero-banner.contact-banner  p {display: none;}
+  .inner-hero-banner.contact-banner .inner-top-icon span:first-child {font-size: 14px;}
+  .inner-hero-banner.contact-banner .inner-top-icon {margin-top: 0;}
+  .inner-hero-banner.contact-banner .inner-page-content {margin-bottom: 185px;}
+  .form-label, .form-control {width: 100%;}
+  .inner-hero-banner.contact-banner {padding-bottom: 50px;}
+
+  .about-descreprion-wrap ul.about-list {display: block;}
+  .about-descreprion-wrap ul.about-list li {margin-bottom: 40px !important;padding-left: 40px;position: relative;width: 100%;}
+  .about-descreprion-wrap ul.about-list li p {max-width: 100%;}
+  .about-descreprion-wrap ul.about-list li:before {content: "";width: 2px;height: 26px;background: #E854A6;position: absolute;left: 0;}
+  .get-deeper-look-wrap {padding: 50px 22px 50px;}
+  .get-deeper-look-wrap .deeper-btn-wrap p {font-size: 17px;margin-bottom: 35px;line-height: 25px;margin: 12px 0 25px 0;}
+  .about-hero-content h1 br, .about-hero-content p br, h2.from-call-abt-action br {display: none;}
+  .about-hero-content h6.text-purple, .technology-at-human h6.text-purple {font-size: 15px;}
+  .about-hero-content h6.text-purple, .technology-at-human h6.text-purple {font-size: 15px;}
+  .about-descreprion-wrap h2 {font-size: 40px;line-height: 46px;}
+  .about-descreprion-wrap h6 {font-size: 14px;}
+  h2.from-call-abt-action {margin-bottom: 50px;}
+  .about-descreprion-wrap p {color: #C2C5CE;}
+  .product-wrap {margin-bottom: 65px;}
+  .icon-box-wrap p {max-width: 290px;}
+  .destination-keywords-img.aos-init svg {margin-left: -25px;}
+  .walloffs-registration .img-wrap svg, .destination-keywords-img.aos-init svg {transform: scale(1.15);}
+  .inner-hero-banner.healthcare-banner .inner-page-content p {max-width: 100%;}
+  .solutions-banner.dialer-banner .inner-hero-section-2 .inner-hero-image-2 svg {margin-left: -38px; width: 100%;}
+  .autocalling-tracking .inner-hero-image-3 svg {transform: scale(1.08);margin-left: 15px;margin-bottom: 60px;}
+  .ivr-call-rounting .img-wrap svg {margin-left: -10px;transform: scale(1.08);margin-bottom: 50px;}
+  .solutions-banner.dialer-banner .inner-hero-section-2 .inner-hero-image-2 {margin-bottom: -30px;}
+
+  .solutions-banner.ivr-branch-banner .inner-hero-image-2 svg {transform: scale(1.1);margin: -20px 0 40px 0;}
+  .prompts-incentives .inner-hero-image-3 svg {transform: scale(1.12);margin: 50px 0 50px -10px;}
+  .walloffs-registration .img-wrap svg {margin: 30px 0 40px 0;}
+
+  .solutions-banner.hotline-banner .inner-hero-section-2 .inner-hero-image-2 svg {transform: scale(1.05);width: 100%;margin-left: 10px;}
+  .recording-organization .inner-hero-image-3 svg {transform: scale(1.1);margin-left: -17px;margin-bottom: 55px;}
+  .streaming-recording .center-image-section .img-wrap svg {transform: scale(1.2);margin-bottom: 50px;}
+  .default-overrides .img-wrap svg {transform: scale(1.25);margin-bottom: 50px;}
+  .default-overrides {overflow-x: hidden;}
+  .announcements-restrictions .img-wrap svg {transform: scale(1.15);margin: 50px 0 65px -20px;}
+
+  .solutions-banner.smartsms-banner .inner-hero-image svg {transform: scale(1.15);margin-left: -15px;}
+  .chat-broadcast .inner-hero-image-2 svg {margin-bottom: 70px;transform: scale(1.25);margin-top: 40px;}
+  .solutions-banner.smartsms-banner .inner-hero-section-3 .inner-hero-image-3 svg {margin-left: 10px;transform: scale(1.05);margin-top: 50px;}
+  .inner-hero-banner.smartsms-banner {padding-bottom: 60px;}
+  .emails-notices .img-wrap svg {transform: scale(1.12);}
+  .smartsms-landlines .img-wrap svg {transform: scale(1.15);margin: 50px 0 50px -10px;}
+  .smartsms-landlines {padding-bottom: 65px;}
+
+  .inner-hero-banner.telepay-banner .inner-hero-section-2 {margin-top: 90px;}
+  .access-cart-management .inner-hero-image-2 svg {transform: scale(1.25);margin: 65px 0 55px;}
+  .payment-and-scheduling .img-wrap svg {transform: scale(1.1);margin: 50px 0 20px;}
+  .campaigns-analytics .img-wrap svg {transform: scale(1.15);margin: 40px 0 30px 15px;}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  .home-hero-banner .home-hero-image::before {left: -30px; top: 40px;}
+  .home-hero-banner .home-hero-image svg {transform: scale(1.25);}
+  .four-column-listing li p, .center-image-section .four-column-listing li p, .center-image-wrapper .col:last-child .four-column-listing li p {max-width: 280px;}
+  .flexpbx-banner .inner-hero-image img {transform: scale(1.2);margin-left: -10px;}
+  
+  .telepay-banner .inner-page-content h1 {font-size: 32px;line-height: 40px;}
+  .telepay-banner .home-inner-slider .technologies-slider .img-wrap {padding: 0 20px;}
+  .telepay-banner .home-inner-slider .technologies-slider {margin-bottom: 60px;}
+  .solutions-banner.telepay-banner .inner-hero-section-2 .inner-hero-image-2 {margin: 0 0 -20px;}
+  .solution-other-wrapper .flepbx-wrap .img-wrap {margin-bottom: -45px;}
+  .ivr-branch-banner .inner-page-content h1 {max-width: 310px;margin-bottom: 25px;}
+  .small-section.solution-other-wrapper {padding-top: 55px;}
+  .finance-banner .inner-page-content p br, .technology-banner .inner-page-content p br {display: none;}
+  .inner-hero-banner.login-banner {background-position: calc(100% + 10px) 10px;}
+  .login-form-wrap h4 {font-size: 20px;margin-bottom: 60px;margin-top: -20px;}
+  
+
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+  .mega-menu li.dropdown-item a span b {font-size: 15px;line-height: 20px;}
+  .hero-btn-wrap a.btn.btn-link { padding-left: 5px; }
+  .home-hero-image {margin-top: 0;}
+  .flexpbx-banner .inner-page-content h1, .didtrunking-banner .inner-page-content h1 {font-size: 31px;line-height: 37px;}
+  .telepay-banner .inner-page-content h1 {font-size: 29px;line-height: 40px;}
+  .telepay-banner .home-inner-slider .technologies-slider .img-wrap {padding: 0 10px;}
+  .inner-hero-banner.industries-banner .inner-page-content h1, .about-hero-content h1 {font-size: 34px;}
+
+
+
+
+}
+@media only screen and (max-width: 360px) {
+  .hero-btn-wrap {flex-wrap: wrap;justify-content: center;text-align: center;}
+  h1, .h1 {font-size: 30px;line-height: 38px;}
+  .home-hero-banner .home-hero-image svg {transform: scale(1.35);}
+  .solution-info-wrapper h3 {font-size: 24px;line-height: 34px;}
+  .talk-descp-wrap h4 {font-size: 22px;}
+  .inner-hero-banner.industries-banner .inner-page-content p br, .inner-hero-banner.industries-banner .inner-page-content h1 br {display: none;}
+  .inner-hero-banner.contact-banner:before {background-position: 60% 90px;}
+
+}
+
+@media only screen and (max-width: 350px) {
+  .forgot-pass a, .login-form .form-group label {font-size: 14px;}
+
+
+}
+
+
+
+/* Max Height Media Queries */
+@media screen and ( max-height: 1080px) {
+    
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 823px) 
+  and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { 
+   
+}
